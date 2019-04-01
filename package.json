@@ -1,29 +1,23 @@
 {
-  "name": "rest-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+  "development": {
+    "username": "postgres",
+    "password": 123456,
+    "database": "rest_api_day1",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrifkyilyas/rest-api.git"
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrifkyilyas/rest-api/issues"
-  },
-  "homepage": "https://github.com/mrifkyilyas/rest-api#readme",
-  "dependencies": {
-    "bcrypt": "^3.0.5",
-    "dotenv": "^7.0.0",
-    "env": "0.0.2",
-    "express": "^4.16.4",
-    "jsonwebtoken": "^8.5.1",
-    "pg": "^7.9.0",
-    "sequelize": "^5.2.8"
-  }
+  "production": {
+   "username" : "jpsexjillrjnfp",
+"password" : "c140089794dfc9c0f0a121485b80db3ca10804fc11522260a6d66ccbd2fd5614,
+"database" : "dfedrmsk3dqn73",
+"host" : "postgres://jpsexjillrjnfp:c140089794dfc9c0f0a121485b80db3ca10804fc11522260a6d66ccbd2fd5614@ec2-23-21-136-232.compute-1.amazonaws.com:5432/dfedrmsk3dqn73",
+"dialect" : "postgres"
+  } 
 }
