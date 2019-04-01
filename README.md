@@ -21,3 +21,10 @@ $sequelize db:migrate
 $ npm run dev 
 
 
+
+
+
+##heroku deploy url
+https://blueberry-cake-58867.herokuapp.com/
+
+
